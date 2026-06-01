@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tredx</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <i class="fa-solid fa-arrow-trend-up" style="color: linear-gradient(45deg,#2563eb,#7c3aed);font-size: 32px;"></i>
+        <h1>Tredx</h1>
+        <div class="menu">
+        <a href="index.html" style="text-decoration: none;color: white;">Home</a>
+        <a href="markets.html" style="text-decoration: none;color: white;">Markets</a>
+        <a href="login.html" style="text-decoration: none;color: white;">login</a>
+        <a href="signup.html" style="text-decoration: none;color: white;">Sign up</a>
+        <a href="portfolio.html" style="text-decoration: none;color: white;">Portfolio</a>
+        </div>
+        <button class="login-page" >Login</button>
+    </header>
+    <main>
+        <section class="hero" style="background-image: url(vladislav-maslow-eNStVITP_10-unsplash.jpg);">
+
+    <!-- LEFT SIDE -->
+    <div class="hero-text">
+
+        <h1>
+            Trade Smarter With Real-Time Insights
+        </h1>
+
+        <p>
+            Track markets, manage portfolio, and explore live trading data.
+        </p>
+
+        <!-- BUTTONS -->
+        <div class="hero-buttons">
+
+            <button class="btn" style="background-color: #2563eb;">
+                Start Trading
+            </button>
+
+            <button class="btn">
+                Learn More
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+
+</section>
+        <section class="markets" style="margin-top: 80px;display: flex;justify-content: space-around;gap:30px;text-align: center;">
+            <div class="market-card" style="width: 250px;height: 150px; border-radius: 15px;background-color: black;display: flex;flex-direction: column;justify-content: center;text-align: center;gap: 5px;">
+              <i class="fa-brands fa-bitcoin"></i>
+              <h4 style="color: brown;">Bitcoin</h4>
+                <p style="font-size: 22px; color: aqua;">$65,000</p>
+                <p>67%</p>
+                <button class="Trade" style="width: 100px; height: 40px;display: flex;justify-content: center;padding: 10px;margin-left: 75px;background-color: blueviolet;">Buy Now</button>
+            </div>
+            <div class="market-card"style="width: 250px;height: 150px; border-radius: 15px;background-color: black;display: flex;flex-direction: column;justify-content: center;text-align: center;gap: 5px;">
+              <i class="fa-brands fa-ethereum"></i>
+              <h4 style="color: burlywood;">Ethereum</h4>
+                <p style="font-size: 22px;color: bisque;">$3,200</p>
+                <p>60%</p>
+                <button class="Trade" style="width: 100px; height: 40px;display: flex;justify-content: center;padding: 10px;margin-left: 75px; background-color: blueviolet;">Buy Now</button>
+            </div>
+            <div class="market-card"style="width: 250px;height: 150px; border-radius: 15px;background-color: black;display: flex;flex-direction: column;justify-content: center;text-align: center;gap: 5px;">
+              <i class="fa-brands fa-apple"></i>
+              <h4 style="color: chartreuse;">Apple</h4>
+                <p style="font-size: 22px;color: #7c3aed;">$180</p>
+                <p>55%</p>
+                <button class="Trade" style="width: 100px; height: 40px;display: flex;justify-content: center;padding: 10px;margin-left: 75px; background-color: blueviolet;">Buy Now</button>
+            </div>
+            <div class="market-card"style="width: 250px;height: 150px; border-radius: 15px;background-color: black;display: flex;flex-direction: column;justify-content: center;text-align: center;gap: 5px;">
+              <i class="fa-solid fa-charging-station"></i>
+              <h4 style="color: chocolate;">Tesla</h4>
+                <p style="font-size: 22px; color: blanchedalmond;">$240</p>
+                <p>45%</p>
+                <button class="Trade" style="width: 100px; height: 40px;display: flex;justify-content: center;padding: 10px;margin-left: 75px; background-color: blueviolet;">Buy Now</button>
+            </div>
+        </section>
+    <nav style="display: flex;justify-content: space-around;">
+       <section class="trading-panel" style="margin-top: 100px;">
+    <form class="trade-form">
+
+        <input type="text" placeholder="Enter Stock">
+
+        <input type="number" placeholder="Quantity">
+
+        <div class="action-box">
+
+            <label>Action</label>
+
+            <select>
+
+                <option>Buy</option>
+                <option>Sell</option>
+
+            </select>
+
+        </div>
+
+        <button type="submit">
+            Place Order
+        </button>
+
+    </form>
+
+</section>
+        <section class="portfolio" style="margin-top: 40px;">
+
+    <h2>Your Portfolio</h2>
+
+    <div class="portfolio-table">
+
+        <table>
+
+            <tr>
+
+                <th>Stocks</th>
+                <th>Quantity</th>
+                <th>Current Price</th>
+                <th>Total Value</th>
+                <th>Profit/Loss</th>
+
+            </tr>
+
+            <tr>
+
+                <td>Bitcoin</td>
+                <td>1</td>
+                <td>$65,000</td>
+                <td>$65,000</td>
+                <td class="profit">$1,000</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Apple</td>
+                <td>10</td>
+                <td>$180</td>
+                <td>$1,800</td>
+                <td class="profit">$200</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Ethereum</td>
+                <td>5</td>
+                <td>$3,200</td>
+                <td>$16,000</td>
+                <td class="profit">$800</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Tesla</td>
+                <td>2</td>
+                <td>$240</td>
+                <td>$480</td>
+                <td class="profit">$40</td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+</section>
+</nav>
+        <section class="features" style="width:100%;height: 250px;padding-left: 30px; margin-top: 60px;">
+            <div>
+                <h3 style="font-size: 24px; display: flex;justify-content: center;">Real-time prices</h3>
+                <p style="font-size: 16px;display: flex;justify-content: center;">Get up to the minute price updates across all your favorite assets.</p>
+            </div>
+            <div>
+                <h3  style="font-size: 24px;display: flex;justify-content: center;">secure Trading</h3>
+                <p style="font-size: 16px;display: flex;justify-content: center;">Trade with confidence using our secure and reliable platform.</p>
+            </div>
+            <div>
+                <h3 style="font-size: 24px;display: flex;justify-content: center;">Fast orders</h3>
+                <p style="font-size: 16px;display: flex;justify-content: center;">Execute trades quickly and efficiently with our streamlined order processing.</p>
+            </div>
+            <div>
+                <h3 style="font-size: 24px;display: flex;justify-content: center;">analytics</h3>
+                <p style="font-size: 16px;display: flex;justify-content: center;">Gain valuable insights into your trading performance and market trends.</p>
+            </div>
+    </main>
+
+  <style>
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background: #0b1220;
+    }
+
+    .footer{
+      background: #111827;
+      padding: 60px 40px;
+    }
+
+    .footer-container{
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 30px;
+    }
+
+    .footer-column{
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .footer-column h3{
+      color: white;
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .footer-column a{
+      text-decoration: none;
+      color: #cbd5e1;
+      font-size: 17px;
+      transition: 0.3s;
+    }
+
+    .footer-column a:hover{
+      color: #00ffae;
+      transform: translateX(5px);
+    }
+
+    .copyright{
+      text-align: center;
+      color: #94a3b8;
+      margin-top: 50px;
+      font-size: 15px;
+      border-top: 1px solid #334155;
+      padding-top: 20px;
+    }
+
+    @media(max-width:1200px){
+      .footer-container{
+        grid-template-columns: repeat(4,1fr);
+      }
+    }
+
+    @media(max-width:768px){
+      .footer-container{
+        grid-template-columns: repeat(2,1fr);
+      }
+    }
+
+    @media(max-width:500px){
+      .footer-container{
+        grid-template-columns: repeat(1,1fr);
+      }
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <footer class="footer">
+
+    <i class="fa-solid fa-arrow-trend-up" style="color: linear-gradient(45deg,#2563eb,#7c3aed);font-size: 32px;"></i>
+    <h1>Tredx</h1>
+    <br>
+    <p>Kankavati park society Behind ITI</p>
+    <p>palanpur,Gujarat</p>
+    <br>
+    <h3>contact us</h3><br>
+    <div style="display: flex;gap: 20px;">
+    <i class="fa-brands fa-x-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-linkedin-in"></i>
+    <i class="fa-brands fa-youtube"></i>
+    </div>
+    <br><br>
+
+    <div class="footer-container">
+
+      <div class="footer-column">
+        <h3>Market</h3>
+        <a href="#">Share Market</a>
+        <a href="#">Indices</a>
+        <a href="#">F&O</a>
+        <a href="#">Mutual Funds</a>
+        <a href="#">ETFs</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Trading</h3>
+        <a href="#">Trade</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Crypto</a>
+        <a href="#">Stocks</a>
+        <a href="#">Forex</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Account</h3>
+        <a href="#">Wallet</a>
+        <a href="#">Deposit</a>
+        <a href="#">Withdraw</a>
+        <a href="#">Rewards</a>
+        <a href="#">Security</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Tools</h3>
+        <a href="#">Analytics</a>
+        <a href="#">Live Charts</a>
+        <a href="#">Signals</a>
+        <a href="#">Calculator</a>
+        <a href="#">API Access</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Company</h3>
+        <a href="#">About Us</a>
+        <a href="#">Careers</a>
+        <a href="#">Blog</a>
+        <a href="#">News</a>
+        <a href="#">Pricing</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Support</h3>
+        <a href="#">FAQ</a>
+        <a href="#">Tutorials</a>
+        <a href="#">Help Center</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Community</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Legal</h3>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Licenses</a>
+        <a href="#">Cookies</a>
+        <a href="#">Disclaimer</a>
+      </div>
+
+    </div>
+
+    <div class="copyright">
+      © 2026 TredX Trading Platform. All Rights Reserved.
+    </div>
+
+  </footer>
+
+</body>
+</html>
