@@ -110,8 +110,8 @@ Piyush Gujor
 B.Tech Computer Science Engineering Student  
 SRM Institute of Science and Technology
 
-LinkedIn: Add Your LinkedIn Link
-Portfolio: Add Your Portfolio Link
+LinkedIn: https://www.linkedin.com/in/piyush-gujor-241712383/
+Portfolio: https://luxury-custard-fa7808.netlify.app/
 
 ---
 
